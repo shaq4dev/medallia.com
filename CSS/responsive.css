@@ -1,0 +1,15 @@
+/* hidden on mobile */ 
+
+/* menu */
+.li-container-one {
+    display: none;
+}
+.li-container-two p,
+.li-container-three p, 
+.li-container-four p {
+    display: none;
+}
+
+#ibm, #zurich {
+    display: none;
+}
