@@ -13,8 +13,149 @@
     <!-- FEEDBACK -->
     <div class="feedback-container"><a href="#">Feedback</a></div>
 
-    <!-- NAVIGATION -->
-    <nav class="container">
+    <!-- <i class="fa-solid fa-caret-down"></i> for mobile menu drop -->
+
+    <!-- NAVIGATION MOBILE -->
+      <!-- nav container mobile -->
+    <nav class="container-mobile">
+      <!-- hamburger mobile-->
+      <div class="hamburger-mobile" id="hamburger-mob" onclick="getElementByID('menu-mob').style.display = 'block'">
+        <i class="fa-solid fa-bars i-mobile"></i>
+      </div>
+      <!-- medallia logo mobile -->
+      <div class="logo-mobile">
+        <a href="#"
+          ><img
+            src="https://www.medallia.com/_nuxt/img/medallia.afdd331.svg"
+            alt="medallia.com"
+        /></a>
+      </div>
+
+    
+
+      <!-- NAVIGATION MENU ITEMS MOBILE -->
+
+      <!-- NAV menu container -->
+      <div class="nav-menu-items-mobile">
+        <!-- mobile menu container -->
+        <div class="menu-mobile" id="menu-mob">
+          <!-- menu mobile ul -->
+          <ul class="menu-items-mobile">
+            <!-- all menu lists -->
+
+            <!-- PRODUCTS -->
+            <li>
+              <!-- products title -->
+              <a href="#"
+                >Products<i class="fa-solid fa-caret-down i-mobile"></i
+              ></a>
+              <!-- products menu -->
+              <ul class="menu-list">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Complete & Modern Listening</a></li>
+                <li><a href="#">Action-Oriented Analytics</a></li>
+                <li><a href="#">Act, Learn, & Transform</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Customer Experience</a></li>
+                <li><a href="#">Employee Experience</a></li>
+                <li><a href="#">Digital Experience</a></li>
+                <li><a href="#">Contact Center</a></li>
+                <li><a href="#">Market Research</a></li>
+              </ul>
+            </li>
+
+            <!-- SOLUTIONS -->
+            <li>
+              <!-- solutions title -->
+              <a href="#"
+                >Solutions<i class="fa-solid fa-caret-down i-mobile"></i
+              ></a>
+              <!-- solutions menu -->
+              <ul class="menu-list">
+                <li><a href="#">CX Professional</a></li>
+                <li><a href="#">HR Professional</a></li>
+                <li><a href="#">Digital Professional</a></li>
+                <li><a href="#">Account Management</a></li>
+                <li><a href="#">Location Based Operations</a></li>
+                <li><a href="#">Research & Insights</a></li>
+                <li><a href="#">Automotive</a></li>
+                <li><a href="#">Energy & Utilities</a></li>
+                <li><a href="#">Financial Services</a></li>
+                <li><a href="#">Government</a></li>
+                <li><a href="#">Healthcare</a></li>
+                <li><a href="#">Higher Education</a></li>
+                <li><a href="#">Insurance</a></li>
+                <li><a href="#">Life Sciences</a></li>
+                <li><a href="#">Manufacturing</a></li>
+                <li><a href="#">Nonprofit</a></li>
+                <li><a href="#">Restaurants & Food Service</a></li>
+                <li><a href="#">Retail</a></li>
+                <li><a href="#">Technology & Services</a></li>
+                <li><a href="#">Telecommunications & Media</a></li>
+                <li><a href="#">Travel & Hospitality</a></li>
+              </ul>
+            </li>
+
+            <!-- CUSTOMERS -->
+            <li>
+              <a href="#">Customers</a>
+            </li>
+
+            <!-- RESOURCES -->
+            <li>
+              <!-- resources title -->
+              <a href="#"
+                >Resources<i class="fa-solid fa-caret-down i-mobile"></i>
+                <!-- resources menu -->
+                  <ul class="menu-list">
+                    <li><a href="#">Event Calendar</a></li>
+                    <li><a href="#">Mastercast</a></li>
+                    <li><a href="#">Experts on Demand</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Resource Library</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Training & Certification</a></li>
+                    <li><a href="#">Customer Knowledge Center</a></li>
+                  </ul>
+            </li>
+
+            <!-- COMPANY -->
+            <li>
+              <!-- menu title -->
+              <a href="#"
+                >Company<i class="fa-solid fa-caret-down i-mobile"></i>
+                <!-- menu list -->
+                  <ul class="menu-list">
+                    <li><a href="#">About Medallia</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Diversity</a></li>
+                    <li><a href="#">Giving Back</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Global Impact</a></li>
+                    <li><a href="#">Brand Partnerships</a></li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+            </li>
+          </ul>
+
+          <!-- request a demo -->
+          <div class="request-wrapper-mobile">
+            <a href="#">Request a Demo</a>
+            <button id="languages-mobile">
+              <i class="fa-solid fa-globe"> </i><br />
+              EN <i class="fa-solid fa-caret-down i-mobile"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVIGATION DESKTOP -->
+    <nav class="container nav-desktop">
       <div class="hamburger">
         <i class="fa-solid fa-bars"></i>
       </div>
@@ -200,13 +341,13 @@
     </nav>
 
     <!-- HEADER -->
-    <head class="head-container">
+    <section class="head-container">
       <h1 class="head">Medallia Named the Leader in The Forrester Wave™</h1>
       <h3 class="head">Customer Feedback Management</h3>
 
       <a href="#" class="head">Go To Report</a>
-      <img src="/Images/forrester.png" alt="" class="head" />
-    </head>
+      <img src="/Images/forrester.png" alt="forrester" class="head" />
+    </section>
 
     <!-- SECTION ONE -->
     <section class="section-one-container">

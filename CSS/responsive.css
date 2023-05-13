@@ -1,15 +1,76 @@
-/* hidden on mobile */ 
+/* MOBILE STYLES */
 
-/* menu */
-.li-container-one {
-    display: none;
-}
-.li-container-two p,
-.li-container-three p, 
-.li-container-four p {
+/* this sections temporarily hides desktop html from mobile view */
+
+.nav-desktop {
     display: none;
 }
 
-#ibm, #zurich {
+/* nav mobile */
+
+.nav-secure {
+    position: fixed;
+}
+
+nav.container-mobile {
+    position: sticky;
+    top: 0;
+    background: var(--white);
+    width: 100vw;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* hides entire menu list */
+
+.menu-mobile {
     display: none;
+    position: absolute;
+    background: var(--light);
+    width: 100vw;
+    height: 60vh;
+    top: 64px;
+    left: 0;
+}
+
+/* hides sub-menus */
+
+.menu-items-mobile>li ul.menu-list {
+    display: none;
+}
+
+/* ===== STYLING ===== */
+
+/* navigation header */
+
+.container-mobile {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/* hamburger */
+
+.hamburger-mobile {
+    font-size: 24px;
+    margin: 14px 10px;
+    padding: 4px 12px;
+    color: var(--secondary);
+}
+
+/* logo */
+
+.logo-mobile {
+    margin: 0 16px 0 -25px;
+    padding: 5px 0;
+    
+}
+.logo-mobile img {
+    width: 89.22px;
+}
+
+/* HEADER SECTION */
+
+.head-container {
+    background: var(--blue);
+    padding: 30px 40px;
 }
